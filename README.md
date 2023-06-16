@@ -58,11 +58,15 @@ For using this project you must clone this machine learning project with followi
 
 Complete steps on how to build the model are available on [ml_aksacarma_development.ipnyb](https://github.com/AksaCerma/akscarma-ml/blob/main/ml_aksacarma_development.ipynb). A summary of the steps is as follows.
 
-1. Get [Dermet Data](https://www.kaggle.com/datasets/shubhamgoel27/dermnet) from Kagle
-2. Merge and Sort Data, the result available [here](https://github.com/AksaCerma/akscarma-ml/tree/main/dataset/merged-sorted-dermnet)
-3. Split data to train, validation, and test dataset
-4. Train model with data
-5. Save model
+1. Get [Dermet Data](https://www.kaggle.com/datasets/shubhamgoel27/dermnet) from Kagle.
+2. Merge and sort Data. Don't use irrelevant images. The result available [here](https://github.com/AksaCerma/akscarma-ml/tree/main/dataset/merged-sorted-dermnet).
+   This is an example of an irrelevant image not being used. It is obtained from [Dermet Data](https://www.kaggle.com/datasets/shubhamgoel27/dermnet),`dermnet/train/scabies-lyme-disease-and-other-infestations-and-bites/ants-2.jpg`.
+
+   ![1686899075418](image/README/1686899075418.png)
+
+3. Split data to train, validation, and test dataset.
+4. Train model with data.
+5. Save model.
 
 ### How to Load Models
 
